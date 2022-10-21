@@ -1,0 +1,63 @@
+nav {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 150px;
+  margin-bottom: 0px;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  width: 100%;
+  z-index: 1000;
+}
+
+.logo {
+  max-height: 130px;
+}
+
+.navLinkContainer {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.navLinkContainer > * {
+  margin-right: 30px;
+  color: #444;
+  text-decoration: none;
+  font-size: 20px;
+  background-image: linear-gradient(to right, #7865a0, #7865a0 50%, #444 50%);
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.navLinkContainer a:visited {
+  color: #444;
+}
+
+.navLinkContainer a:before {
+  content: "";
+  background: #7865a0;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.navLinkContainer a:hover {
+  background-position: 0;
+}
+
+.navLinkContainer a:hover::before {
+  background-position: 0;
+  width: 100%;
+}

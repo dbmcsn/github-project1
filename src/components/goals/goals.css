@@ -1,0 +1,31 @@
+.goalsContainer {
+  margin: 20px 150px;
+  background-color: #f1f1f1;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.goalsTextContainer {
+  text-align: left;
+}
+
+.goalsContainer h1 {
+  font-size: 80px;
+  opacity: 70%;
+}
+
+.goalsContainer h3 {
+  font-size: 80px;
+  opacity: 70%;
+}
+
+.aboutMe {
+  margin-top: 30px;
+}
+
+.aboutMe h3 {
+  font-size: 20px;
+  color: rgb(141, 17, 17);
+  margin-bottom: 10px;
+}

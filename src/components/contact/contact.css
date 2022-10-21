@@ -1,0 +1,138 @@
+.contactContainer {
+  margin: 20px 150px;
+  background-color: #f1f1f1;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  text-align: left;
+}
+
+.contactTextContainer {
+  display: flex;
+  text-align: left;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.contactContainer h1 {
+  font-size: 80px;
+  opacity: 70%;
+}
+
+.contactForm {
+  margin-right: 100px;
+  max-width: 500px;
+}
+
+.contactFormBox {
+  border-radius: 20px;
+}
+
+.contactInfoItem {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.contactInfoIcon {
+  height: 50px;
+  margin-right: 30px;
+  color: rgb(112, 11, 11);
+}
+
+.socialIcon {
+  height: 55px !important;
+  width: 55px !important;
+  margin-right: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: 0px;
+  background-color: #7865a0;
+  color: #fff;
+  font-size: 17px;
+  letter-spacing: 2px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* 
+.socialMedia > * {
+  color: #444;
+  background-image: linear-gradient(to right, #7865a0, #7865a0 50%, #444 50%);
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.socialMedia a:visited {
+  color: #444;
+}
+
+.socialMedia a:before {
+  content: "";
+  background: #7865a0;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.socialMedia a:hover {
+  background-position: 0;
+}
+
+.socialMedia a:hover::before {
+  background-position: 0;
+  width: 100%;
+} */
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #941c1c;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #412aa4;
+}
+
+.contactbox {
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+  width: 500px;
+  margin: auto;
+  font-size: small;
+}
+
+#fname,
+#lname {
+  height: 30px;
+}

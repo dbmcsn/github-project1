@@ -1,0 +1,65 @@
+
+Project-1 folder
+
+About this Project (1):
+For the year 2022, I started practicing coding and started my first personal project with Uplift Code Camp, which is making a static portfolio website. This website contains my projects, my goals and my contact information. I just made it simple and used stars as my background because I love the galaxy. 
+
+Technical Sheet:
+HTML
+CSS
+
+
+About This Project (2):
+The "Whack-Pickle-Rick" project is a game that has the same concept as the Whac-A-Mole, an old arcade game machine that you'll see on some amusement arcade centers. I used Pickle Rick as the mole because I love the Rick and Morty series and I think it will be funny if I based my second project on that cartoon show.
+
+
+Technical Sheet:
+HTML
+CSS
+JavaScript
+
+
+About This Project (3):
+This project is a To-Do-List app and the first time I've tried applying responsive design media queries. This app is useful and best for people who are forgetful as you won't be able to add a task that's already there, deleting is also an easy way as the button is present whichever the page you're in. Also I made the font size big so I can say it's really readable.
+
+
+Technical Sheet:
+HTML
+CSS
+JavaScript
+React
+
+About This Project (4):
+I created a Resto App with the same look of Krusty Krab, a fictional fast food restaurant in SpongeBob SquarePants cartoon but I changed the name to Krusty Krab Pizza. I became playful and used a funny menu. Some of the offered food is really being offered on that Krusty Krab restaurant. For this app, the user can place order, edit the number of items and delete it in the cart being displayed on the website. I also included the total amount of the items added to the cart just like normal resto apps.
+
+
+Technical Sheet:
+HTML
+CSS
+JavaScript
+React
+
+
+About This Project (5):
+The goal of this project is for the lists on my Krusty Krab Pizza App be registered on my data as we started practicing back-end web applications. I was able to apply an API and add new food items and it will be added on the back-end list as well. Also by adding an item to the cart, the cart data will also be updated including the number of items.  
+
+Technical Sheet:
+HTML
+CSS
+JavaScript
+React
+ExpressJS
+NodeJS
+
+About This Project (6):
+I created a Book Review App and named it "The Book". It is made for people who loves books and so they can also communicate with other people who had read with the same book as they look for book reviews. It also helps with people who haven't decided what to read next so they check Recommended Books and see books with good reviews. I also added a section where they can pick a specific category and see available/existing books for now.
+
+
+Technical Sheet:
+HTML
+CSS
+JavaScript
+React
+ExpressJS
+NodeJS
+MongoDB (Mongoose)

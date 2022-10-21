@@ -1,0 +1,98 @@
+.bannerContainer {
+  /* margin: 20px 150px; */
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  background-color: #f1f1f1;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  align-items: flex-end;
+}
+
+.bannerTextContainer {
+  text-align: left;
+}
+
+.bannerContainer h1 {
+  font-size: 80px;
+  opacity: 70%;
+}
+
+.bannerContainer h1:hover {
+  opacity: 80%;
+  animation-name: hello;
+  animation-duration: 3s;
+}
+
+@keyframes hello {
+  from {
+    color: #6f6b6b;
+  }
+  to {
+    color: #8976b0;
+  }
+}
+
+.displayImages {
+  display: flex;
+  /* flex-flow: row nowrap;
+  justify-content: space-between; */
+  margin-top: 20px;
+  margin-bottom: auto;
+}
+
+.coffeeImage {
+  border-radius: 20px;
+  opacity: 60%;
+  height: 200px;
+  width: 200px;
+  transition-duration: 3s;
+}
+
+.coffeeImage:hover {
+  opacity: 90%;
+}
+
+.horizontalImage {
+  border-radius: 20px;
+  opacity: 60%;
+  height: 200px;
+  width: 300px;
+  transition-duration: 3s;
+  margin-left: 30px;
+}
+
+.horizontalImage:hover {
+  opacity: 90%;
+}
+
+.bookImage {
+  border-radius: 20px;
+  opacity: 60%;
+  height: 200px;
+  width: 200px;
+  transition-duration: 3s;
+  margin-left: 30px;
+}
+
+.bookImage:hover {
+  opacity: 90%;
+}
+
+.verticalImage {
+  border-radius: 20px;
+  opacity: 60%;
+  /* height: 500px;
+  width: 330px; */
+  height: 400px;
+  width: 300px;
+  transition-duration: 3s;
+  margin-left: 30px;
+}
+
+.verticalImage:hover {
+  opacity: 90%;
+}
