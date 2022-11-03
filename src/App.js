@@ -37,7 +37,7 @@ function App() {
       details:
         "I created a Resto App with the same look of Krusty Krab, a fictional fast food restaurant in SpongeBob SquarePants cartoon but I changed the name to Krusty Krab Pizza. I became playful and used a funny menu. Some of the offered food is really being offered on that Krusty Krab restaurant. For this app, the user can place order, edit the number of items and delete it in the cart being displayed on the website. I also included the total amount of the items added to the cart just like normal resto apps.",
       technicalSheet: ["HTML", "CSS", "JavaScript", "React"],
-      Link: "",
+      Link: "https://debm-resto-app.herokuapp.com",
     },
     {
       image: p5,
