@@ -81,6 +81,7 @@ function App() {
         <footer className="footerContainer">
           Icons from <a href="https://www.flaticon.com">flaticon.com</a>,
           <br /> Apple Logo made by Mac Villarino
+          <br /> Photos by Louie Romantico
         </footer>
       </div>
     </div>
