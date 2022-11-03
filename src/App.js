@@ -11,12 +11,12 @@ function App() {
       image: p1,
       name: "Static Website",
       details:
-        "For the year 2022, I started practicing coding and started my first personal project with Uplift Code Camp, which is making a static portfolio website. This website contains my projects, my goals and my contact information. I just made it simple and used stars as my background because I love the galaxy.",
+        "For the year 2022, I started practicing coding and started my first personal project with Uplift Code Camp, which is making a static portfolio website. This website contains my projects, my goals and my contact information. I just made it simple and used stars as my background because I love the galaxy. I wanted a more simple and sharp look for my portfolio, so I created this new design for a more easier and clean layout.",
       technicalSheet: ["HTML", "CSS"],
     },
     {
       image: p2,
-      name: "Whack-Pickle-Rick",
+      <a href="https://whackpicklerick.herokuapp.com">name: "Whack-Pickle-Rick"</a>,
       details:
         "The Whack-Pickle-Rick project is a game that has the same concept as the Whac-A-Mole, an old arcade game machine that you'll see on some amusement arcade centers. I used Pickle Rick as the mole because I love the Rick and Morty series and I think it will be funny if I based my second project on that cartoon show.",
       technicalSheet: ["HTML", "CSS", "JavaScript"],
