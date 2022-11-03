@@ -2,15 +2,21 @@ import React from "react";
 import "./box.css";
 
 const box = (props) => {
-  const { image, name, details, technicalSheet } = props.info;
+  const { image, name, details, technicalSheet, Link } = props.info;
 
   return (
     <div className="box" id="projects">
       <div className="imageContainer">
-        <img src={image} />
+        <a href={Link} target="_blank" rel="noopener">
+          <img src={image} />
+        </a>
       </div>
       <div className="textContainer">
-        <h3>{name}</h3>
+        <h3>
+          <a href={Link} target="_blank" rel="noopener">
+            {name}
+          </a>
+        </h3>
         <p>{details}</p>
         {technicalSheet?.length > 0 ? (
           <>
