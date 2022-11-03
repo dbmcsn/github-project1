@@ -29,7 +29,7 @@ function App() {
       details:
         "This project is a To-Do-List app and the first time I've tried applying responsive design media queries. This app is useful and best for people who are forgetful as you won't be able to add a task that's already there, deleting is also an easy way as the button is present whichever the page you're in. Also I made the font size big so I can say it's really readable.",
       technicalSheet: ["HTML", "CSS", "JavaScript", "React"],
-      Link: "",
+      Link: "https://debm-todo-app.herokuapp.com",
     },
     {
       image: p4,
