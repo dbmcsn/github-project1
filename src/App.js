@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import { useState } from "react";
 import "./App.css";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router";
 import { Nav, Banner, Box, Goals, Contact } from "./components";
 import { p1, p2, p3, p4, p5, p6 } from "./assets";
 
