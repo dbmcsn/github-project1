@@ -22,7 +22,7 @@ function App() {
       details:
         "The Whack-Pickle-Rick project is a game that has the same concept as the Whac-A-Mole, an old arcade game machine that you'll see on some amusement arcade centers. I used Pickle Rick as the mole because I love the Rick and Morty series and I think it will be funny if I based my second project on that cartoon show.",
       technicalSheet: ["HTML", "CSS", "JavaScript"],
-      Link: "https://whackpicklerick.herokuapp.com",
+      Link: "https://polite-seahorse-d7a409.netlify.app",
       Github: "https://github.com/dbmcsn/github-project2",
     },
     {
