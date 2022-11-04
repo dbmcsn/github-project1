@@ -3,7 +3,6 @@ import { useState } from "react";
 import "./contact.css";
 import { Email, Location, Phone } from "../../assets";
 import { SocialIcon } from "react-social-icons";
-import resume from "./../../assets/resume.pdf";
 
 const Contact = () => {
   const [value, setValue] = useState("");
@@ -106,13 +105,6 @@ const Contact = () => {
               target="_blank"
               className="socialIcon"
             />
-          </div>
-          <br />
-          {/*SOCIAL MEDIA*/}
-          <div className="cv">
-            <a href={resume} download>
-              Download my CV
-            </a>
           </div>
         </div>
       </div>

@@ -29,7 +29,7 @@ const box = (props) => {
             <h4>Technical Sheet:</h4>
             <ul>
               {technicalSheet.map((sheet) => {
-                return <li>{sheet}</li>;
+                return <li key={sheet}>{sheet}</li>;
               })}
             </ul>
           </>

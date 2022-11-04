@@ -8,6 +8,7 @@ import { p1, p2, p3, p4, p5, p6 } from "./assets";
 function App() {
   const [projects, setProjects] = useState([
     {
+      id: 1,
       image: p1,
       name: "Static Website",
       details:
@@ -17,6 +18,7 @@ function App() {
       Github: "https://github.com/dbmcsn/github-project1",
     },
     {
+      id: 2,
       image: p2,
       name: "Whack-Pickle-Rick",
       details:
@@ -26,6 +28,7 @@ function App() {
       Github: "https://github.com/dbmcsn/github-project2",
     },
     {
+      id: 3,
       image: p3,
       name: "To-Do App",
       details:
@@ -35,6 +38,7 @@ function App() {
       Github: "https://github.com/dbmcsn/github-project3",
     },
     {
+      id: 4,
       image: p4,
       name: "Resto App",
       details:
@@ -44,6 +48,7 @@ function App() {
       Github: "https://github.com/dbmcsn/github-project4",
     },
     {
+      id: 5,
       image: p5,
       name: "Resto App - Backend",
       details:
@@ -60,6 +65,7 @@ function App() {
       Github: "https://github.com/dbmcsn/github-project5",
     },
     {
+      id: 6,
       image: p6,
       name: "The Book Review App",
       details:
@@ -84,7 +90,7 @@ function App() {
       <Banner />
       <div className="boxContainer">
         {projects.map((project) => {
-          return <Box info={project} />;
+          return <Box key={project.id} info={project} />;
         })}
       </div>
       <Goals />
