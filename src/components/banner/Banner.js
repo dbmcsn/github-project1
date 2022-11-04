@@ -3,7 +3,6 @@ import "./banner.css";
 import Coffee from "./../../assets/coffee.jpg";
 import Horizontal from "./../../assets/whiite.jpg";
 import Book from "./../../assets/whiiiiteBox.jpg";
-import Vertical from "./../../assets/whiiite.jpg";
 
 const banner = () => {
   return (
@@ -20,9 +19,6 @@ const banner = () => {
           <img src={Horizontal} className="horizontalImage" />
           <img src={Book} className="bookImage" />
         </div>
-      </div>
-      <div>
-        <img src={Vertical} className="verticalImage" />
       </div>
     </div>
   );

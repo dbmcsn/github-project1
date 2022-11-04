@@ -14,6 +14,7 @@ function App() {
         "For the year 2022, I started practicing coding and started my first personal project with Uplift Code Camp, which is making a static portfolio website. This website contains my projects, my goals and my contact information. I just made it simple and used stars as my background because I love the galaxy. I wanted a more simple and sharp look for my portfolio, so I created this new design for a more easier and clean layout.",
       technicalSheet: ["HTML", "CSS"],
       Link: "https://debmportfolio.herokuapp.com",
+      Github: "https://github.com/dbmcsn/github-project1",
     },
     {
       image: p2,
@@ -22,6 +23,7 @@ function App() {
         "The Whack-Pickle-Rick project is a game that has the same concept as the Whac-A-Mole, an old arcade game machine that you'll see on some amusement arcade centers. I used Pickle Rick as the mole because I love the Rick and Morty series and I think it will be funny if I based my second project on that cartoon show.",
       technicalSheet: ["HTML", "CSS", "JavaScript"],
       Link: "https://whackpicklerick.herokuapp.com",
+      Github: "https://github.com/dbmcsn/github-project2",
     },
     {
       image: p3,
@@ -29,7 +31,8 @@ function App() {
       details:
         "This project is a To-Do-List app and the first time I've tried applying responsive design media queries. This app is useful and best for people who are forgetful as you won't be able to add a task that's already there, deleting is also an easy way as the button is present whichever the page you're in. Also I made the font size big so I can say it's really readable.",
       technicalSheet: ["HTML", "CSS", "JavaScript", "React"],
-      Link: "https://debm-todo-app.herokuapp.com",
+      Link: "https://monumental-rugelach-77978e.netlify.app",
+      Github: "https://github.com/dbmcsn/github-project3",
     },
     {
       image: p4,
@@ -37,7 +40,8 @@ function App() {
       details:
         "I created a Resto App with the same look of Krusty Krab, a fictional fast food restaurant in SpongeBob SquarePants cartoon but I changed the name to Krusty Krab Pizza. I became playful and used a funny menu. Some of the offered food is really being offered on that Krusty Krab restaurant. For this app, the user can place order, edit the number of items and delete it in the cart being displayed on the website. I also included the total amount of the items added to the cart just like normal resto apps.",
       technicalSheet: ["HTML", "CSS", "JavaScript", "React"],
-      Link: "",
+      Link: "https://debm-resto-app.herokuapp.com",
+      Github: "https://github.com/dbmcsn/github-project4",
     },
     {
       image: p5,
@@ -52,7 +56,8 @@ function App() {
         "ExpressJS",
         "NodeJS",
       ],
-      Link: "",
+      Link: "https://debm-resto-app.herokuapp.com",
+      Github: "https://github.com/dbmcsn/github-project5",
     },
     {
       image: p6,
@@ -69,6 +74,7 @@ function App() {
         "MongoDB (Mongoose)",
       ],
       Link: "https://debm-book-review.herokuapp.com/login",
+      Github: "https://github.com/dbmcsn/github-project6",
     },
   ]);
 
@@ -85,7 +91,7 @@ function App() {
       <Contact />
       <div>
         <footer className="footerContainer">
-          Icons from <a href="https://www.flaticon.com">flaticon.com</a>,
+          Icons from <a href="https://www.flaticon.com">flaticon.com</a>
           <br /> Apple Logo made by Mac Villarino
           <br /> Photos by Louie Romantico
         </footer>
